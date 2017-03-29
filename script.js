@@ -1,4 +1,7 @@
 $(document).ready(function() {
-	var cell = '<div class = "cell"> </div>';
-  $("#wrapper").append(cell);
+	var i = 0
+  var cell = '<div class = "cell"> </div>';
+  for (var i = 0; i < 256; i++){
+	$("#wrapper").append(cell);
+}
 });

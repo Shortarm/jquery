@@ -1,15 +1,17 @@
 #wrapper {
-  height: 640px;
-  width: 640px;
-  margin:10px auto;
+  height: 672px;
+  width: 672px;
+  margin: 10px auto;
   background-color: orange;
+  border: 1px black solid;
 }
+
 .cell {
   height: 40px;
   width: 40px;
   background-color: cornflowerblue;
   margin: 0;
-  border: 1px;
+  border: 1px black solid;
   float: left;
   display: grid;
 }
