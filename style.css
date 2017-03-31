@@ -7,11 +7,9 @@
 }
 
 .cell {
-  height: 40px;
-  width: 40px;
   background-color: cornflowerblue;
   margin: 0;
-  border: 1px black solid;
+  outline: 1px black solid;
   float: left;
   display: grid;
 }
