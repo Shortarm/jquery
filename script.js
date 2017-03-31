@@ -8,18 +8,10 @@ $(document).ready(function() {
 	$("#wrapper").append(cell);
 };
 $(".cell").mouseenter(function(){
-    $(this).css("background-color", "yellow");
+    $(this).css("background-color", '#'+Math.floor(Math.random()*16777215).toString(16) );
 });
 $("#reset").click(function(){
 
 	document.location.reload();
 	});
 });
-/*function() {
-		if(672%square === 0) {
-		var s = 672/square;
-} else {
-console.log("It must be a whole number!");
-}
-	};
-} */
